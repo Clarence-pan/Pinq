@@ -19,5 +19,5 @@ interface IGenerator extends \IteratorAggregate
      *
      * @return \Generator
      */
-    public function &getIterator();
+    public function getIterator();
 }
